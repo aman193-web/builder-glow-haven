@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'sans': ['Lato', 'system-ui', 'sans-serif'],
+        'lato': ['Lato', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,21 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        // Takallam brand colors
+        takallam: {
+          blue: "#38B6FF",
+          "blue-light": "#EDF6FE",
+          navy: "#141D2C",
+          "gray-900": "#101828",
+          "gray-800": "#1D2939",
+          "gray-600": "#475467",
+          "gray-500": "#667085",
+          "gray-400": "#98A2B3",
+          "gray-200": "#EAECF0",
+          "gray-50": "#F9FAFB",
+          "gray-cool-200": "#DCDFEA",
+          "gray-cool-50": "#F9F9FB",
         },
       },
       borderRadius: {
