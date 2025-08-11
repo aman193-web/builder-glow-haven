@@ -136,8 +136,8 @@ export default function Index() {
               <div className="w-12 h-12 bg-takallam-blue rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-takallam-gray-800 text-xl font-bold mb-2">Customer Service</h3>
-              <p className="text-takallam-gray-500 text-base leading-6">
+              <h3 className="text-gray-800 text-xl font-bold mb-2">Customer Service</h3>
+              <p className="text-gray-600 text-base leading-6">
                 Resolve routine support requests instantly, escalate complex ones.
               </p>
             </div>
