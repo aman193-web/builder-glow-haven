@@ -351,7 +351,7 @@ export default function Index() {
                 </div>
                 <span className="text-black text-[30px] font-bold">Takallam</span>
               </div>
-              <p className="text-takallam-gray-600 text-base leading-6">
+              <p className="text-gray-600 text-base leading-6">
                 AI that listens, understands, and responds like your best team member—across sales, support, and beyond.
               </p>
             </div>
@@ -363,7 +363,7 @@ export default function Index() {
                   <ul className="space-y-3">
                     {['Link 1', 'Link 2', 'Link 3', 'Link 4'].map(link => (
                       <li key={link}>
-                        <a href="#" className="text-takallam-gray-600 text-base hover:text-takallam-blue transition-colors">
+                        <a href="#" className="text-gray-600 text-base hover:text-takallam-blue transition-colors">
                           {link}
                         </a>
                       </li>
