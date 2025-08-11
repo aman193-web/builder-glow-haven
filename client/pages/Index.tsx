@@ -86,7 +86,7 @@ export default function Index() {
                   </div>
                   <div>
                     <div className="text-white text-2xl font-medium">5,670</div>
-                    <div className="text-takallam-gray-cool-200 text-sm">Happy customers</div>
+                    <div className="text-gray-200 text-sm">Happy customers</div>
                   </div>
                 </div>
               </div>
