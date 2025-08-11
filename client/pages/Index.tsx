@@ -107,7 +107,7 @@ export default function Index() {
       </div>
 
       {/* Features Overview Section */}
-      <section className="py-36 bg-takallam-gray-cool-50">
+      <section className="py-36 bg-gray-50">
         <div className="max-w-[1280px] mx-auto px-8">
           <div className="text-center mb-16">
             <div className="text-blue-500 text-base font-medium mb-3">What Can Takallam Do?</div>
