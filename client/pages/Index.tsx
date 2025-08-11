@@ -258,7 +258,7 @@ export default function Index() {
       ))}
 
       {/* Testimonials Section */}
-      <section className="relative bg-takallam-navy py-24">
+      <section className="relative bg-slate-800 py-24">
         {/* Curved divider */}
         <svg className="absolute top-0 left-0 w-full h-17" viewBox="0 0 1440 68" fill="none">
           <path d="M1440 51.3595C815.174 92.4472 219.656 47.8691 0 20.4441V0H1440V23.9345V51.3595Z" fill="white"/>
