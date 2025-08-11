@@ -50,7 +50,7 @@ export default function Index() {
                 <h1 className="text-white text-[60px] font-normal leading-[72px] tracking-[-1.2px] mb-6 max-lg:text-4xl max-lg:leading-tight">
                   Transform your <span className="font-bold">⚡ Business Processes</span> with Voice AI
                 </h1>
-                <p className="text-takallam-gray-cool-200 text-base leading-6 mb-6 max-w-[488px]">
+                <p className="text-gray-200 text-base leading-6 mb-6 max-w-[488px]">
                   AI that listens, understands, and responds like your best team member—across sales, support, and beyond.
                 </p>
                 <button className="flex items-center gap-2 px-6 py-3 bg-takallam-blue rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
