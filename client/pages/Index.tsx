@@ -110,10 +110,10 @@ export default function Index() {
       <section className="py-36 bg-takallam-gray-cool-50">
         <div className="max-w-[1280px] mx-auto px-8">
           <div className="text-center mb-16">
-            <div className="text-takallam-blue text-base font-medium mb-3">What Can Takallam Do?</div>
-            <h2 className="text-takallam-gray-800 text-4xl font-medium leading-tight tracking-[-0.72px] max-w-[582px] mx-auto">
+            <div className="text-blue-500 text-base font-medium mb-3">What Can Takallam Do?</div>
+            <h2 className="text-gray-800 text-4xl font-medium leading-tight tracking-[-0.72px] max-w-[582px] mx-auto">
               Answer Questions, Guide Sales, and Escalate{' '}
-              <span className="font-bold bg-gradient-to-r from-takallam-gray-800 to-takallam-blue bg-clip-text text-transparent">
+              <span className="font-bold bg-gradient-to-r from-gray-800 to-blue-500 bg-clip-text text-transparent">
                 All in Real Time.
               </span>
             </h2>
