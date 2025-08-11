@@ -8,7 +8,7 @@ export default function Index() {
         {/* Background Blur Effects */}
         <div className="absolute inset-0">
           <div className="absolute top-[-115px] right-[100px] w-[271px] h-[271px] rounded-full bg-indigo-600 blur-[117px] opacity-70"></div>
-          <div className="absolute top-[189px] left-[44px] w-[271px] h-[271px] rounded-full bg-takallam-blue blur-[117px] opacity-70"></div>
+          <div className="absolute top-[189px] left-[44px] w-[271px] h-[271px] rounded-full bg-blue-500 blur-[117px] opacity-70"></div>
           <div className="absolute top-[324px] right-[76px] w-[172px] h-[172px] rounded-full bg-teal-600 blur-[107px] opacity-60"></div>
           <div className="absolute top-[646px] left-[-76px] w-[215px] h-[215px] rounded-full bg-blue-800 blur-[117px] opacity-60"></div>
         </div>
@@ -18,7 +18,7 @@ export default function Index() {
           <div className="flex items-center gap-10">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="w-[35px] h-[35px] rounded-full bg-takallam-blue flex items-center justify-center">
+              <div className="w-[35px] h-[35px] rounded-full bg-blue-500 flex items-center justify-center">
                 <Phone className="w-5 h-5 text-white" />
               </div>
               <span className="text-white text-[30px] font-bold">Takallam</span>
@@ -53,7 +53,7 @@ export default function Index() {
                 <p className="text-gray-200 text-base leading-6 mb-6 max-w-[488px]">
                   AI that listens, understands, and responds like your best team member—across sales, support, and beyond.
                 </p>
-                <button className="flex items-center gap-2 px-6 py-3 bg-takallam-blue rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
+                <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
                   Book a Demo
                   <ArrowRight className="w-6 h-6" />
                 </button>
@@ -66,11 +66,11 @@ export default function Index() {
                   <div className="w-[234px] h-[236px] rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
                       <div className="flex gap-1">
-                        <div className="w-2 h-8 bg-takallam-blue rounded-full animate-pulse"></div>
-                        <div className="w-2 h-6 bg-takallam-blue rounded-full animate-pulse delay-100"></div>
-                        <div className="w-2 h-10 bg-takallam-blue rounded-full animate-pulse delay-200"></div>
-                        <div className="w-2 h-4 bg-takallam-blue rounded-full animate-pulse delay-300"></div>
-                        <div className="w-2 h-7 bg-takallam-blue rounded-full animate-pulse delay-400"></div>
+                        <div className="w-2 h-8 bg-blue-500 rounded-full animate-pulse"></div>
+                        <div className="w-2 h-6 bg-blue-500 rounded-full animate-pulse delay-100"></div>
+                        <div className="w-2 h-10 bg-blue-500 rounded-full animate-pulse delay-200"></div>
+                        <div className="w-2 h-4 bg-blue-500 rounded-full animate-pulse delay-300"></div>
+                        <div className="w-2 h-7 bg-blue-500 rounded-full animate-pulse delay-400"></div>
                       </div>
                     </div>
                   </div>
@@ -122,7 +122,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-takallam-blue rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
+              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
                 <MessageCircle className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-gray-800 text-xl font-bold mb-2">Sales Support</h3>
@@ -133,7 +133,7 @@ export default function Index() {
 
             {/* Feature 2 */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-takallam-blue rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
+              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-gray-800 text-xl font-bold mb-2">Customer Service</h3>
@@ -144,7 +144,7 @@ export default function Index() {
 
             {/* Feature 3 */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-takallam-blue rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
+              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-5 border-8 border-blue-100">
                 <TrendingUp className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-gray-800 text-xl font-bold mb-2">HR & Onboarding</h3>
@@ -190,7 +190,7 @@ export default function Index() {
                 <p className="text-gray-600 text-base leading-6 mb-8 max-w-[445px]">
                   {feature.description}
                 </p>
-                <button className="flex items-center gap-2 px-6 py-3 bg-takallam-blue rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
+                <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
                   Book a Demo
                   <ArrowRight className="w-6 h-6" />
                 </button>
@@ -333,10 +333,10 @@ export default function Index() {
               </p>
             </div>
             <div className="flex gap-3">
-              <button className="px-6 py-3 bg-takallam-blue-light text-takallam-blue rounded-lg text-base font-semibold hover:bg-blue-100 transition-colors">
+              <button className="px-6 py-3 bg-blue-500-light text-takallam-blue rounded-lg text-base font-semibold hover:bg-blue-100 transition-colors">
                 Learn more
               </button>
-              <button className="px-6 py-3 bg-takallam-blue text-white rounded-lg text-base font-semibold hover:bg-blue-500 transition-colors">
+              <button className="px-6 py-3 bg-blue-500 text-white rounded-lg text-base font-semibold hover:bg-blue-500 transition-colors">
                 Start with Takallam
               </button>
             </div>
@@ -346,7 +346,7 @@ export default function Index() {
           <div className="py-12 flex justify-between max-lg:flex-col max-lg:gap-8">
             <div className="max-w-[320px]">
               <div className="flex items-center gap-3 mb-8">
-                <div className="w-[35px] h-[35px] rounded-full bg-takallam-blue flex items-center justify-center">
+                <div className="w-[35px] h-[35px] rounded-full bg-blue-500 flex items-center justify-center">
                   <Phone className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-black text-[30px] font-bold">Takallam</span>
