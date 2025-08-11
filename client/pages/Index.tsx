@@ -93,7 +93,7 @@ export default function Index() {
             </div>
 
             {/* Dashboard Preview */}
-            <div className="bg-takallam-gray-900 rounded-3xl p-2 max-w-[1216px] mx-auto">
+            <div className="bg-gray-900 rounded-3xl p-2 max-w-[1216px] mx-auto">
               <div className="bg-gray-200 rounded-2xl aspect-[1216/733] flex items-center justify-center overflow-hidden">
                 <img 
                   src="https://api.builder.io/api/v1/image/assets/TEMP/3a1cc2c154b875c03d00d590b3b4af428abfd75c?width=2432" 
