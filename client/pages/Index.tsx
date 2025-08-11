@@ -376,7 +376,7 @@ export default function Index() {
         </div>
 
         {/* Bottom Section */}
-        <div className="bg-takallam-gray-50 py-12">
+        <div className="bg-gray-50 py-12">
           <div className="max-w-[1216px] mx-auto px-8 flex justify-between items-center max-lg:flex-col max-lg:gap-6">
             <p className="text-gray-400 text-base">
               © 2025 Takallam. All rights reserved.
