@@ -184,7 +184,7 @@ export default function Index() {
             <div className="flex lg:items-center gap-16 max-lg:flex-col">
               <div className="flex-1 pl-5">
                 <div className="text-black/40 text-base font-semibold tracking-[-0.32px] mb-10">{feature.badge}</div>
-                <h2 className="text-takallam-gray-800 text-4xl font-medium leading-tight tracking-[-0.72px] mb-5">
+                <h2 className="text-gray-800 text-4xl font-medium leading-tight tracking-[-0.72px] mb-5">
                   {feature.title}
                 </h2>
                 <p className="text-takallam-gray-500 text-base leading-6 mb-8 max-w-[445px]">
@@ -297,11 +297,11 @@ export default function Index() {
                     alt={testimonial.name}
                     className="w-15 h-15 rounded-full mx-auto mb-6"
                   />
-                  <blockquote className="text-takallam-gray-800 text-lg leading-7 mb-6">
+                  <blockquote className="text-gray-800 text-lg leading-7 mb-6">
                     "{testimonial.quote}"
                   </blockquote>
                   <div>
-                    <div className="text-takallam-gray-800 text-lg font-bold">{testimonial.name}</div>
+                    <div className="text-gray-800 text-lg font-bold">{testimonial.name}</div>
                     <div className="text-gray-600 text-base">{testimonial.role}</div>
                   </div>
                 </div>
@@ -325,7 +325,7 @@ export default function Index() {
           {/* Top Section */}
           <div className="flex justify-between items-center pb-16 border-b border-gray-200 max-lg:flex-col max-lg:gap-8">
             <div className="flex-1">
-              <h2 className="text-takallam-gray-800 text-3xl font-bold mb-3">
+              <h2 className="text-gray-800 text-3xl font-bold mb-3">
                 Every conversation deserves intelligence.
               </h2>
               <p className="text-takallam-gray-500 text-lg">
