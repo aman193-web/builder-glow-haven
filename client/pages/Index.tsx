@@ -187,7 +187,7 @@ export default function Index() {
                 <h2 className="text-gray-800 text-4xl font-medium leading-tight tracking-[-0.72px] mb-5">
                   {feature.title}
                 </h2>
-                <p className="text-takallam-gray-500 text-base leading-6 mb-8 max-w-[445px]">
+                <p className="text-gray-600 text-base leading-6 mb-8 max-w-[445px]">
                   {feature.description}
                 </p>
                 <button className="flex items-center gap-2 px-6 py-3 bg-takallam-blue rounded-lg text-white text-base font-semibold hover:bg-blue-500 transition-colors">
@@ -328,7 +328,7 @@ export default function Index() {
               <h2 className="text-gray-800 text-3xl font-bold mb-3">
                 Every conversation deserves intelligence.
               </h2>
-              <p className="text-takallam-gray-500 text-lg">
+              <p className="text-gray-600 text-lg">
                 Join over 4,000+ startups already growing with us.
               </p>
             </div>
@@ -359,7 +359,7 @@ export default function Index() {
             <div className="flex gap-32 max-lg:gap-8 max-lg:grid max-lg:grid-cols-2">
               {Array.from({length: 4}).map((_, i) => (
                 <div key={i}>
-                  <h3 className="text-takallam-gray-500 text-sm font-semibold mb-4">Links</h3>
+                  <h3 className="text-gray-600 text-sm font-semibold mb-4">Links</h3>
                   <ul className="space-y-3">
                     {['Link 1', 'Link 2', 'Link 3', 'Link 4'].map(link => (
                       <li key={link}>
