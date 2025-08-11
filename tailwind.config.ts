@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'sans': ['Lato', 'system-ui', 'sans-serif'],
-        'lato': ['Lato', 'system-ui', 'sans-serif'],
+        sans: ["Lato", "system-ui", "sans-serif"],
+        lato: ["Lato", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
